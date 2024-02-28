@@ -13,12 +13,12 @@
 //==============================================================================
 /**
 */
-class SammyAudioProcessor  : public juce::AudioProcessor
+class MyAudioProcessor  : public juce::AudioProcessor
 {
 public:
     //==============================================================================
-    SammyAudioProcessor();
-    ~SammyAudioProcessor() override;
+    MyAudioProcessor();
+    ~MyAudioProcessor() override;
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
@@ -57,5 +57,5 @@ private:
     Synthesiser mSampler;
 
     //==============================================================================
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SammyAudioProcessor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MyAudioProcessor)
 };

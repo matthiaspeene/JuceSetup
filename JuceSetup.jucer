@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="hCkXTw" name="Sammy" projectType="audioplug" useAppConfig="0"
+<JUCERPROJECT id="hCkXTw" name="JuceSetup" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1"
               pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
-              companyName="M8T" pluginVST3Category="Sampler" pluginVSTCategory="kPlugCategSynth">
-  <MAINGROUP id="QdDEeq" name="Sammy">
+              pluginVST3Category="Sampler" pluginVSTCategory="kPlugCategSynth">
+  <MAINGROUP id="QdDEeq" name="JuceSetup">
     <GROUP id="{4E8E9E92-EAAB-B319-39DB-2FB5C38BE689}" name="Source">
       <FILE id="AMlnzX" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
@@ -34,9 +34,9 @@
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="Sammy" enablePluginBinaryCopyStep="1"
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Setup" enablePluginBinaryCopyStep="1"
                        vst3BinaryLocation="C:\Program Files\Common Files\VST3"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="Sammy" enablePluginBinaryCopyStep="1"
+        <CONFIGURATION isDebug="0" name="Release" targetName="Setup" enablePluginBinaryCopyStep="1"
                        vst3BinaryLocation="C:\Program Files\Common Files\VST3"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
